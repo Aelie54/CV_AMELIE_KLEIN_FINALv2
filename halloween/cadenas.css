@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Optima, sans-serif;
+    /*text-align: justify;*/
+  }
+
+.piege {
+  height: 300px;
+  text-align : center ;
+}
+
+.crane {
+  height : 100px ;
+  text-align : center ;
+}
+
+.indice {
+  color : black ;
+}
+
+.guessSubmit{
+  background-color : black;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+#liencacher {
+  display: none;
+}
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 200px;
+  height: 25px;
+}
+
+
+
+@media (max-aspect-ratio: 3/4) {
+
+  .piege {
+    height: 150px;
+    text-align : center ;
+  }
+
+}

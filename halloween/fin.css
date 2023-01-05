@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Optima, sans-serif;
+    text-align: justify-center;
+  }
+
+  .zombie{height : 180px ;}
+
+  .berk{ height : 550px ;}
+
+
+
+  @media (max-aspect-ratio: 3/4) {
+
+    .zombie{height : 130px ;}
+
+    .berk{ height : 300px ;}
+
+    .merci{
+      height : 50px ;
+    }
+
+  }

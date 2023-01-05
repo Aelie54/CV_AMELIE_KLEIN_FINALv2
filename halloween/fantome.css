@@ -1,0 +1,89 @@
+body { /* police de body */
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: Optima, sans-serif;  }
+
+audio {
+  filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+  width: 200px;
+  height: 25px;
+}
+
+span.italique {   /*pour écrire en italique*/
+  font-style:italic;
+}
+
+.texte_en_rouge{ /*pour écrire en rouge*/
+  color : red ;
+}
+
+.conteneur { /*parametres premiere flexbox pour positionner le fantome*/
+  display: row-reverse;
+  text-align: left;
+}
+
+.conteneur2 { /*parametres de seconde flexbox pour mettre sorcière*/
+  display: row-reverse;
+  text-align: end;
+  flex-wrap : wrap-reverse;
+  align-items: flex-end;
+}
+
+@keyframes apparition {                                                       /*keyframes pour augmenter opacité quand on survole une image de 0 à 1 */
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#liencacher {                                                                   /*le lien pour page suivante est cachée au chargement de la page*/
+  display : none;
+}
+
+.monstre {                                                                    /*tous les monstres ne se voient pas au demarrage car opacité à 0*/
+  height : 160px ;
+  opacity : 0 ;
+  text-align: start;
+}
+
+.monstre:hover {                                                              /*au survol des images de monstres dont fantome, l'opacité augmente*/
+  animation-name : apparition;
+  animation-duration : 8s ;
+  animation-iteration-count: infinite;
+}
+
+#fantome::selection {                                                         /*pour éviter la triche : si selection de ce que contient la page, le fantome ne peut pas être selectionné*/
+  animation-name : invisible;
+  animation-duration : 10s ;
+  animation-iteration-count: infinite;
+}
+
+/*
+  @keyframes droite {
+    0%   {right: 0px;}
+    100% {right: 200px;}
+  }
+
+  @keyframes gauche {
+    0%   {left: 0px;}
+    100% {left: 200px;}
+  }
+
+  #fantome{
+    animation-name : gauche;
+    animation-iteration-count: dgauche 5s infinite;
+  }
+*/
+
+
+
+@media (max-aspect-ratio: 3/4) {
+
+
+  .monstre {                                                                    /*tous les monstres ne se voient pas au demarrage car opacité à 0*/
+    height : 80px ;
+  }
+
+
+
+}
+

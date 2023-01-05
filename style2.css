@@ -1,0 +1,632 @@
+.bande{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    background-color: #ffffff;
+    opacity: 0.65 ;
+    filter: grayscale(30%);
+    filter: saturate(60%);
+}
+
+.fondtransparent{
+    width: 100%;
+    bottom: 0px;
+    background-color: #ffffff;
+    opacity: 0.65 ;
+    filter: grayscale(30%);
+    filter: saturate(60%);
+}
+
+.bg1 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?landscape) repeat-y top fixed ;
+}
+
+.bg2 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?sky) repeat-y top fixed;
+}
+
+.bg3 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+    background: url(https://source.unsplash.com/random/1920x1080?sea) repeat-y top fixed;
+}
+
+.bg4 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?forest) repeat-y top fixed;
+}
+
+.bg5 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?colors) repeat-y top fixed;
+}
+
+.bg6 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?sunrise) repeat-y top fixed;
+}
+
+.bg7 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?nature) repeat-y top fixed;
+}
+
+.bg8 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?flower) repeat-y top fixed;
+}
+
+.bg9 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?design) repeat-y top fixed;
+}
+
+.bg10 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?modern) repeat-y top fixed;
+}
+
+.bg11 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?futur) repeat-y top fixed;
+}
+
+.bg12 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?sunset) repeat-y top fixed;
+}
+
+.bg13 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?work) repeat-y top fixed;
+}
+
+.bg14 {
+        /* position: absolute; */
+        margin-left:0px;
+    margin-right: auto;
+        width: 100%;
+        /* margin: 0; */
+         background: url(https://source.unsplash.com/random/1920x1080?snow) repeat-y top fixed;
+}
+
+.bg15 {
+    /* position: absolute; */
+    margin-left :auto;
+    margin-right: auto;
+    width: 100%;
+    /* margin: 0; */
+     background: url(https://source.unsplash.com/random/1920x1080?winter) repeat-y top fixed;
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+    background-color: black;
+}
+
+body {
+	display : table;
+}
+
+footer {
+	display : table-row;
+	height: 90px; /* à titre d'exemple */
+}
+
+#avatar{
+position: center;
+height: 225px;
+filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+border-radius: 50%;
+border : solid white 3px;
+}
+
+.telecharger{
+position: absolute;
+left: 60.05%;
+right: 37.57%;
+top: 18.13%;
+bottom: 77.39%;
+background: #FF876C;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.ecrire{
+
+position: absolute;
+width: 56px;
+height: 54px;
+left: 898px;
+top: 237px;
+
+filter: drop-shadow(2px 0px 0px rgba(0, 0, 0, 0.25));
+
+position: absolute;
+left: 10%;
+right: 5%;
+top: 5%;
+bottom: 15%;
+
+position: absolute;
+left: 10%;
+right: 5%;
+top: 5%;
+bottom: 15%;
+background: #FFBE40;
+}
+
+.flex0{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+.entête{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 50;
+    padding: 25px 0px 0px 0px;
+    /* border: 1px orange solid; */
+}
+
+.bas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top:50px;
+
+}
+
+.etiquette{
+display:flex;
+justify-content:center;
+background-color : rgba(191,170,143,0.39);
+background-color : hsla(34,27%,65%,0.39);
+background-color : #BFAA8F63; /* Norme W3C, CSS4"*/
+}
+
+
+span.gras {         /*ou bien "li span" si seulement dans li */
+    font-weight:    bold;
+    }
+
+span.italique {     /*ou bien "li span" si seulement dans li */
+    font-style:     italic;
+    }
+
+.boutons{
+    display:flex;
+    flex-direction: column;
+    z-index:22;
+    /* border: 1px solid blue; */
+}
+
+#mesboutons2{
+    display:none;
+}
+
+#Nom{
+    padding:0;
+    margin:0;
+    font-size: 45pt;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em ;
+}
+
+.flex-card{
+    margin-left: 10px;
+}
+
+a, p, ul, li {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    font-size: 12pt;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+h3{
+    margin:0;
+}
+
+
+/* MES BOUTONS */
+
+.styled {
+width: 220px;
+height: 40px;
+box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+border: none ;
+margin:5px;
+font-family: 'Lato', sans-serif;
+font-size: 13pt;
+font-style: normal;
+letter-spacing: 0em;
+}
+
+/*.styled {
+        width: 200px;
+        height: 60px;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border: none ;
+        margin:10px;
+        font-family: 'Lato', sans-serif;
+        font-size: 20pt;
+        font-style: normal;
+        letter-spacing: 0em;
+        }*/
+
+.b4{
+    background: #FBF8CC;
+}
+.b3{
+    background: #FDE4CF;
+}
+.b2{
+    background: #FFCFD2;
+}
+.b1{
+    background: #F1C0E8;
+}
+.b5{
+    background: #eaf1c0;
+}
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+/*Article */
+.flex-body{
+    display: flex;
+    justify-content: center;
+    /* border: #ff00d0 1px solid;  */
+    margin: 20px;
+}
+
+.article-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;;
+}
+
+.flex-contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px red solid; */
+    width: 70%;
+}
+
+.article-contain-intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+}
+
+.flex-contain-intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.contain{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/*Effet de bordure*/
+.gradient-border {
+    --borderWidth: 5px;
+    background: white;
+    position: relative;
+    border-radius: var(--borderWidth);
+  }
+  .gradient-border:after {
+    content: '';
+    position: absolute;
+    top: calc(-1 * var(--borderWidth));
+    left: calc(-1 * var(--borderWidth));
+    height: calc(100% + var(--borderWidth) * 2);
+    width: calc(100% + var(--borderWidth) * 2);
+    background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    border-radius: calc(2 * var(--borderWidth));
+    z-index: -1;
+    animation: animatedgradient 3s ease alternate infinite;
+    background-size: 300% 300%;
+  }
+
+  @keyframes animatedgradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  }
+
+
+
+  /* RESPONSIVE*/
+  /*@media (orientation: landscape) and (max-width : 1200px) {}  /*1150*/
+
+@media (max-aspect-ratio: 3/4) {
+
+    .styled {
+            width: 225px;
+            height: 60px;
+            box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            border: none ;
+            margin:10px;
+            font-family: 'Lato', sans-serif;
+            font-size: 20pt;
+            font-style: normal;
+            letter-spacing: 0em;
+            }
+
+    #Nom{
+            padding:0;
+            margin-left:100px;
+            font-size: 70pt;
+            font-family: 'Dancing Script', cursive;
+            color: rgb(0, 0, 0); text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em ;
+        }
+
+    #mesboutons2flex{
+            display:block;
+            margin-top:20px;
+        }
+
+    a, p, ul, li {
+            font-family: 'Dancing Script', cursive;
+            font-family: 'Lato', sans-serif;
+            text-decoration: none;
+            font-size: 22pt;
+        }
+
+     /* #mesboutons2{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    }  */
+
+    #mesboutons2flex{
+        display:block;
+        margin-top:20px;
+    }
+
+    #mesboutons2{
+       display: flex;
+       justify-content: center;
+       flex-direction:column;
+       align-items: center;
+   }
+
+    #mesboutons{
+        display : none
+    }
+
+    .article-contain{
+    margin-top : 70px;
+    }
+
+    .flex-body{
+        margin:0;
+    }
+
+    .article-contain {
+        width: 90%;
+    }
+
+    .entête {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        z-index: 50;
+        padding: 25px 0px 0px;
+	    margin-bottom : 70px;
+    }
+
+ #avatar {
+       position: center;
+       height: 200px;
+       filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.25));
+       border-radius: 80%;
+       border: solid white 3px;
+   }
+
+   .article-contain{
+       margin-bottom:70px;
+   }
+
+    /*.bande{
+        display:none;
+    } */
+
+    .bg1 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?landscape) no-repeat center fixed ;
+         background-size: cover;
+    }
+
+    .bg2 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sky) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg3 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        background: url(https://source.unsplash.com/random/1920x1080?sea) no-repeat center fixed;
+        background-size: cover;
+    }
+
+    .bg4 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?forest) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg5 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?colors) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg6 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sunrise) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg7 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?nature) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg8 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?flower) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg9 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?design) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg10 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?modern) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg11 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?futur) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg12 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?sunset) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg13 {
+        position: relative;
+        width: 100%;
+        margin: 0;
+         background: url(https://source.unsplash.com/random/1920x1080?work) no-repeat center fixed;
+         background-size: cover;
+    }
+
+    .bg14 {
+            position: relative;
+            width: 100%;
+            margin: 0;
+             background: url(https://source.unsplash.com/random/1920x1080?snow) no-repeat center fixed;
+             background-size: cover;
+    }
+}
